@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+<!-- 	liên kết html với css -->
+	<link rel="stylesheet" type="text/css" href="header.css">
+<!-- 	tạo icon cho web  -->
+	<link rel="icon" href="imgico/call.png">
+<!-- tiêu đê web -->
+	<title>Liên hệ </title>
+</head>
+<style>
+	body{
+
+		/* background: rgb(108, 108, 247); */
+		background-image: url("img/backgroundf.jpg");
+		background-repeat: no-repeat;
+		background-size: 150% 130%;
+	}
+	header{
+		background-color: rgba(209, 99, 236, 0.8);
+	}
+	.main-content{
+		width: 100%;
+		display: block;	
+	
+	
+	}
+	.content{
+		font-size: 1.3rem;
+		width: 50%;
+		margin-top: 10%;
+		margin-right: 5%;
+		box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem rgb(81, 84, 99);
+		display: block;
+		border-radius: 7px;
+	
+	}
+	.a-content:hover {
+		font-size: 3.2rem;
+		box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem rgb(81, 84, 99);
+		color: rgb(10, 146, 146);
+		transition: 2s;
+		border-radius: 5px;
+	}
+	.a-content{
+		list-style: none;
+		text-decoration: none;
+		font-size: 3rem;
+		color: rgba(206, 57, 11, 0.911);
+	}
+
+	.pic-picture{
+		width: 30%;
+		border-radius: 50%;
+		margin-top: 10rem;
+		margin-left: -5rem;
+		/* box-shadow: 0 10rem 20rem rgba(242, 248, 244, 0.822), 0 5rem 6rem rgba(124, 100, 100, 0.582); */
+		box-shadow: 2.5rem 1rem 1rem 1rem rgba(85, 90, 114, 0.466);
+		float:left;
+		
+
+
+	}
+	.content{
+		float: right;
+	}
+	b{
+		font-size: 1.5rem;
+		color: rgb(2, 31, 126);
+
+	}
+</style>
+<body>
+
+<div id="menutop">
+	<header>
+	   
+		   <div class="topleft">
+		<div class="logo-content">
+							<a class="logoa" href="index.html"><img src="imgico/ico.png" width="15%" alt="">NTH</a>
+			
+		</div>
+			
+			</div>
+			<div class="topright">
+				<!-- ul#mainmenu>li*5>a -->
+				<nav id="mainmenu">
+					
+						<li class="menutrangchu"><a href="index.html">Trang chủ</a></li>
+						<li class="menudanhmuc"><a href="#">Social Network</a>
+							<nav class="danhmuc_down">
+								<li class="con"><a href="Facebook.html" title="facebook">Facebook</a></li>
+								<li class="con"><a href="instagram.html" title="instagram">Instagram</a></li>
+								<li class="con"><a href="youtube.html" title="youtube">Youtube</a></li>
+								<li class="con"><a href="#" title="tiktok">Tiktok</a></li>
+								<li class="con"><a href="#" title="telegram">Telegram</a></li>
+		  
+							</nav>
+							</li>
+						<li class="menugioithieu"><a href="gioithieu.html">Giới thiệu</a></li>
+						<li class="menublog"><a href="Blog.html">Blog</a></li>
+						<li class="menuuser"><a href="#">Liên hệ</a></li>
+					 
+				 </nav>
+			</div>
+	
+	</header>
+	
+</div>
+	<div class="main-content">
+		<div class="content">
+			<form>
+				<fieldset>
+				  <legend><b>Thông tin cơ bản 😎:</b></legend>
+				  <input id="one" type="radio" name="items" value="one">
+				  <label for="one">Full name: Nguyễn Thành Hưng</label><br>
+				  <input id="two" type="radio" name="items" value="two">
+				  <label for="two">Ngày sinh: 27/10/2000</label><br>
+				  <input id="three" type="radio" name="items" value="three">
+				  <label for="three">Email: <u>Thanhhunghd2710@gmail.com</u></label>
+				  <input id="four" type="radio" name="items" value="four">
+				  <label for="four">SĐT: <u>0982921027</u></label>
+				</fieldset>
+			  </form>
+		</div>
+		<div class="picture"><a href="#" target="_blank"><img class="pic-picture" src="imgico/phone.png" alt="" ></a></div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,206 @@
+body{
+    margin: 0%;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
+}
+#menutop{
+    /* display: flex; */
+    position: fixed;
+    width: 100%;
+}
+#mainmenu{ 
+    list-style: none;
+    display: flex;
+    float: right;
+    
+}
+
+#mainmenu li{
+    margin-right: 50px;
+
+}
+#mainmenu li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255); 
+    font-size: 1.8rem;
+
+    
+}
+.icontim{
+    position: absolute;
+    bottom: 1.5rem;
+
+}
+.logoa{
+    width: 20%;
+    text-decoration: none;
+    font-size: 2.5rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:rgb(29, 48, 29);
+    margin-top: -2%;
+    font-family: 'Akronim';  
+}
+header.sticky{
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: all 1.5s ease-in-out;
+    margin-top: 0%;
+    border-bottom: cornsilk 1px solid;
+    padding: 1px 0px;
+ 
+
+}
+header.sticky .topleft{
+    display: block;
+
+}
+header.sticky #mainmenu li a{
+    text-decoration: none;
+    color: #000; 
+    font-size: 1.5rem;
+    
+}
+
+header.sticky #mainmenu .menudanhmuc:hover .danhmuc_down{
+     display: block;
+     background: blueviolet;
+     box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.2);;
+     transition: all 1.5s ease-in-out;
+}  
+     
+/* #mainmenu .menudanhmuc:hover .danhmuc_down{
+    display: block;
+    background: blueviolet;
+    box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.2);;
+    transition: all 1.5s ease-in-out;
+}   */
+ 
+#mainmenu .menudanhmuc:hover a{
+   color: violet;
+
+}
+#mainmenu .menudanhmuc:hover{
+     margin-top: -1%;
+     
+}
+#mainmenu .menutrangchu:hover a{
+    color: violet;
+}
+#mainmenu .menutrangchu:hover{
+    margin-top: -1%;
+}
+#mainmenu .menugioithieu:hover a{
+    color: violet;  
+}
+#mainmenu .menugioithieu:hover{
+    margin-top: -1%;   
+}
+#mainmenu .menublog:hover a{
+    color: violet;  
+}
+#mainmenu .menublog:hover{
+    margin-top: -1%;   
+}
+#mainmenu .menuuser:hover a{
+    color: violet;   
+}
+#mainmenu .menuuser:hover{
+    margin-top: -1%;   
+}
+.danhmuc_down{
+    color: seashell;
+    display: flex;
+    flex-direction: column;
+    display: none;
+    position: absolute;
+    border-radius: 5px ;
+    clear: both; 
+}
+.danhmuc_down li{
+    list-style: none;
+    line-height: 50px;
+    border-bottom: white 5px solid ;
+    width: 100%;
+    border-radius: 5px; 
+}
+
+.danhmuc_down li:hover{
+    background: white;
+}  
+.danhmuc_down  .con:hover a{ 
+   color: black !important;
+}
+header{
+    display: flex;
+    margin-top: 40%;
+    /* justify-content: space-between; */
+    align-items: center;
+    text-align: center;
+    border-bottom: cornsilk 10px solid;
+    padding: 2rem 0rem;  
+}
+.topright{
+    float: right;
+    width: 60%;
+    display: block;
+    padding: 1rem 2rem;
+    align-items: center;
+    font-size: 1rem;
+    margin-left: 14%;
+}
+.topleft{
+    width: 40%;
+    float: left;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    display: none;
+}    
+.banner{
+    width: 100%;
+}
+.noidungnhap{
+    border-radius: 8px;
+    width: 80%;
+    height: 1.5rem;
+    float: left;
+    text-align: center  ;
+
+}
+.input-content{
+    width: 70%;
+    float: right;
+    margin-top: 1.5%;
+}
+.logo-content{
+    width: 30%;
+    float: left;
+}
+#slideshow {
+    overflow: hidden;
+    height: 1000px;
+    width: 1920px;
+    margin: 0 auto;
+  }
+ .slide-wrapper {
+    width: 5760px;
+    -webkit-animation: slide 20s ease infinite;
+  }
+ .slide {
+    float: left;
+    height:1000px;
+    width: 1920px;
+  }
+ @-webkit-keyframes slide {
+    20% {margin-left: 0px;}
+    30% {margin-left: -1920px;}
+    50% {margin-left: -1920px;}
+    60% {margin-left: -3840px;}
+    80% {margin-left: -3840px;}
+  }
+  .Footer{
+      width: 100%;
+      text-align: center;
+     
+    
+  }
